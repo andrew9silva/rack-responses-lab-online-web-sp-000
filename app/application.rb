@@ -10,6 +10,7 @@ class Application
     else time > 12:00
       resp.write "Good afternoon."
     end
+    resp.finish
   end
 
 end
